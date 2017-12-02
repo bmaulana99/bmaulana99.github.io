@@ -1,116 +1,584 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Bandung Art Deco</title>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, maximum-scale=0.83" />
+		<meta name="description" content="'The Architectural Heritage Art Deco in Bandung"/>
+		<link rel="icon" type="image/png" href="favicon/android-icon-192x192.png">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="manifest" href="favicon/manifest.json">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/animationsc619.css?v=1.0">
+	</head>
+	<body>	
+		<div id="logo" class="logo"><a href="index.html"></a></div>
+		<div class="background-screen">
+			<img src="assets/images/background.png" alt="">
+		</div>
+		<!--Preloading-->
+		<section id="pre-loading-wrapper">
+			<div class="shadow">&nbsp;</div>
+			<div class="container">
+				<img class="load-bus" src="assets/images/loading_bus.png">
+				<img class="load-bar" src="assets/images/loading_bar_small.png">
+			</div>
+		</section>
+		<section id="main-section-wrapper">
+			<div id="clouds-wrapper">
+				<div class="cloud">&nbsp;</div>
+				<div class="cloud cloud-medium">&nbsp;</div>
+				<div class="cloud cloud-small">&nbsp;</div>
+				<div class="cloud inverted">&nbsp;</div>
+				<div class="cloud cloud-big inverted">&nbsp;</div>
+			</div>			
+			<!-- Frame One -->
+			<section id="screen-one-wrapper" data-screen="1" class="screen-wrapper scroll-animate">
+				<img src="assets/images/screen_01/trees_and_lamps.png" alt="" class="bottom-aligned" />
+				<img src="assets/images/screen_01/Balloon.png" alt="" class="balloon" />
+				<img src="assets/images/screen_01/Cloud_01.png" alt="" class="bottom-aligned static-cloud" id="cloud1" />
+				<img src="assets/images/screen_01/Cloud_02.png" alt="" class="bottom-aligned static-cloud" id="cloud2" />
+				<img src="assets/images/screen_01/Cloud_04.png" alt="" class="bottom-aligned static-cloud" id="cloud3" />
+				<div id="trigger2"></div>
+				<img src="assets/images/screen_01/bus.png" alt="" class="bottom-aligned bus" id="anim-elem-2" style="z-index: 999;"/>
+				<div class="bird" id="bird1">&nbsp</div>
+				<div class="bird" id="bird2">&nbsp</div>
+				<div class="arrow-button next">&nbsp;</div>
+				<div class="text-box">
+					<h1 style="font-weight: 400;font-family: 'Ristretto Pro';"">BANDUNG <span style ="color:#dc4033;font-weight: 800;">ART DECO</span></h1>
+					<h2 style="font-family: 'Ristretto Pro';margin-left: -7px;letter-spacing: 4px;font-weight: 100;">The Architectural Heritage in Bandung</h2>
+					<p style="margin-top: 47px;margin-left: 363px;font-size: 17px;font-weight: 100;font-style: italic;">" <span class="weight800">Bandung</span> not just a <span class="weight800">city</span>,<br> its a <span class="weight800">home</span>, its a<span class="weight800"> story</span>, its a <span class="weight800">history</span> "</p>
+				</div>
+				<div id="waves-wrapper" class="background">
+					<div class="wave-dark"></div>
+					<div class="wave-light"></div>
+				</div> 		
+			</section>		
+			<!-- Frame Two -->
+			<section id="screen-two-wrapper" data-screen="2" class="screen-wrapper scroll-animate">
+				<!---<div class="promote-panel wallpapers skrollable unrendered">
+	            	<div class="promote-content">
+	                	<ul>
+		                    <li class="wp1"><a href="/Static/Content/BondCars/bond-img/800x600/c1.jpg" data-size="800x600" target="_blank">800 x 600<span></span></a></li>
+		                    <li class="wp2"><a href="/Static/Content/BondCars/bond-img/1024x768/c1.jpg" data-size="1024x768" target="_blank">1024 x 768<span></span></a></li>
+		                    <li class="wp3"><a href="/Static/Content/BondCars/bond-img/1280x1024/c1.jpg" data-size="1280x1024" target="_blank">1280 x 1024<span></span></a></li>
+		                    <li class="wp4"><a href="/Static/Content/BondCars/bond-img/1600x1200/c1.jpg" data-size="1600x1200" target="_blank">1600 x 1200<span></span></a></li>
+	                	</ul>
+	                	<p><span>Download a desktop wallpaper of your favourite Bond car! Simply select the correct size.</span></p>
+	            	</div>
+	            	<a class="promote-button skrollable  rendered">Wallpaper</a>
+	        	</div>--->
+				<div id="trigger1"></div>
+				<div class="text-box normal from-up-animation-text" id="anim-elem-1" style="margin-left: 80px;">
+					<div class="text" style="margin-top: 99px;margin-left: 45px;">
+						<h1>Apa itu <span class="red">Art Deco ?? </span></h1>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="B.A.D.E">
-    <title>B.A.D.E | Bandung Art Deco</title>
+						<div class="bs-example">
+						    <div class="panel-group" id="accordion">
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						     	           <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-plus"></span> Pengertian</a>
+						                </h4>
+						            </div>
+						            <div id="collapseOne" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <p><span class="weight800">Art Deco</span> adalah gaya hias yang lahir & populer setelah Perang Dunia I dan berakhir sebelum Perang Dunia II ( 1920 - 1939 ).</p>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						                <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-plus"></span> Detail #1:</a>
+						                </h4>
+						            </div>
+						            <div id="collapseTwo" class="panel-collapse collapse ">
+						                <div class="panel-body">
+						                    <p><span class="weight800">Art Deco</span> merupakan gabungan dari berbagai macam aliran, antara lain : Kubisme, Futurisme, Bauhaus, Konstruktivisme, ‘ancient art’ dari beberapa kebudayaan dunia, dan juga kemajuan teknologi.</p>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						                <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-plus"></span> Detail #2</a>
+						                </h4>
+						            </div>
+						            <div id="collapseThree" class="panel-collapse collapse">
+						                <div class="panel-body">
+						                    <p><span class="weight800">Art Deco</span> banyak diterapkan dalam berbagai bidang, misal : 
+											Bidang Arsitektur, Industri, Interior, Fashion, Seni Grafis, dll. </p>
+						                </div>
+						            </div>
+						        </div>
+						    </div>
+						</div>
 
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-theme.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/animations.css">
+					</div>
+				</div>
+				
+				<div class="birds-wrapper">
+					<div class="bird">&nbsp</div>
+					<div class="bird">&nbsp</div>
+					<div class="bird">&nbsp</div>
+					<div class="bird">&nbsp</div>
+					<div class="bird">&nbsp</div>
+				</div>
 
-    <!-- siimple style -->
-    <link href="assets/css/style.css" rel="stylesheet">
+				<div id="choppa"></div>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-
-    <div class="cloud floating">
-        <img src="assets/img/cloud.png" alt="cloud">
-    </div>
-
-    <div class="cloud pos1 fliped floating">
-        <img src="assets/img/cloud.png" alt="cloud">
-    </div>
-
-    <div class="cloud pos2 floating">
-        <img src="assets/img/cloud.png" alt="cloud">
-    </div>
-
-    <div class="cloud pos3 fliped floating">
-        <img src="assets/img/cloud.png" alt="cloud">
-    </div>
-
-
-    <div id="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img src="assets/img/logo.png" alt="logo" style="margin-right: 800px;margin-left: -85px;">
-                    <h2 class="subtitle">Coming Soon!!!!...</h2>
-                    <br/>
-             
-                  
-                    <br/>
-                </div>
-                
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="copyright">Copyright &copy; 2017 - <a href="#">Bandung Art Deco</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://downloads.mailchimp.com/js/jquery.form-n-validate.js"></script>
-    <script>
-        
-$(document).ready( function () {
-    $('#wrapper').height($(document).height());
-    // I only have one form on the page but you can be more specific if need be.
-    var $form = $('form');
-
-    if ( $form.length > 0 ) {
-        $('form input[type="submit"]').bind('click', function ( event ) {
-            if ( event ) event.preventDefault();
-            // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
-            if ( $form.validate() ) { register($form); }
-        });
-    }
-});
-
-function appendResult(userText , className, iconClass){
-  var resultHTML = "<div class='stretchLeft result "+ className + "'>" + userText + " <span class='fa fa-" + iconClass + "'></span>" + "</div>";
-  $('body').append(resultHTML);
-  $('.result').delay(10000).fadeOut('1000');
-}
+					<div id="trigger2"></div>
+					<div class="numbers-box one" id="anim-elem-2">
+						<div class="col-right">
+							<div class="number" style="margin-left: -31px;margin-top:-15px;padding: 7px;border: 2px solid black;">
+							Pada akhir abad ke-<span class="red">19</span> <br>Terjadi Gejolak <span class="red">Revolusi Industri </span><br>yang melatarbelakangi munculnya Gaya<span class="red"> Art Deco</span><br>
+							</div>
+						</div>
+					</div>					
+					<div id="trigger3"></div>
+					<div class="numbers-box three" id="anim-elem-3">
+						<div class="col-right">
+							<div class="number " style="margin-left: 7px;margin-top: -15px;padding: 7px;border: 2px solid black;">
+							Sebelum tahun <span class="red">1966</span>,<br> masyarakat menyebut gaya <span class="red">Art deco</span> dengan <br>sebutan  <span class="red">Modernistik / 1925 Style</span> <br>
+							</div>
+						</div>
+					</div>
 
 
-function register($form) {
-    $.ajax({
-        type: $form.attr('method'),
-        url: $form.attr('action'),
-        data: $form.serialize(),
-        cache       : false,
-        dataType    : 'json',
-        contentType: "application/json; charset=utf-8",
-        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
-        success     : function(data) {
-            if (data.result != "success") {
-                appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
-            } else {
-                // It worked, carry on...
-                appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
-            }
-        }
-    });
-}
-    </script>
+				<img src="assets/images/screen_02/1x.png" alt="" class="bottom-aligned" id="parl" />
+				<img src="assets/images/screen_02/policeman.png" alt="" class="bottom-aligned" id="police1" />
+				<img src="assets/images/screen_02/policeman.png" alt="" class="bottom-aligned" id="police2" />
+				<img src="assets/images/screen_01/bus.png" alt="" class="bottom-aligned bus" id="bus1" />
+				<img src="assets/images/screen_01/bus.png" alt="" class="bottom-aligned bus" id="bus2" />
+				<img src="assets/images/screen_01/bus.png" alt="" class="bottom-aligned bus" id="bus3" />
+				<img src="assets/images/screen_07/smart.png" alt="" class="bottom-aligned" id="smart" />
+				<div class="bottom-aligned" id="biker"></div>		
+				<div class="bottom-aligned" id="biker1"></div>		
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man2" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man3" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman" />
+				<div id="trigge5"></div>
+				<img src="assets/images/screen_02/taxi.png" alt="" class="bottom-aligned" id="car" />
+				<div id="trigger5"></div>
+				<div class="bottom-aligned animated-tree" id="tree-one"></div>
+				<div class="bottom-aligned animated-tree" id="tree-two"></div>
+				<div class="bottom-aligned animated-tree" id="tree-three"></div>
+				<div class="bottom-aligned animated-tree" id="tree-four"></div>
+				<div class="bottom-aligned animated-tree" id="tree-five"></div>
+				<div class="bottom-aligned animated-tree" id="tree-six"></div>
+				<div class="lamp-floor-wrapper">&nbsp;</div>
+				<div id="waves-wrapper">
+					<div class="wave-dark"></div>
+					<div class="wave-light"></div>
+				</div> 	
+					
 
-</body>
+			</section>
 
+			<!-- Frame Three -->
+			<section id="screen-three-wrapper" data-screen="3" class="screen-wrapper scroll-animate">
+				<div id="trigger1"></div>
+				<div class="text-box normal from-up-animation-text" id="anim-elem-1">
+					<div class="text" style="margin-top: 38px;margin-left: 45px;">
+						<h1>Sejarah <span class="red">Art Deco ?? </span></h1>
+						<div class="bs-example">
+						    <div class="panel-group" id="accordion">
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						     	           <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsenama"><span class="glyphicon glyphicon-plus"></span> Penamaan Art Deco</a>
+						                </h4>
+						            </div>
+						            <div id="collapsenama" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <p>Kata <span class="red weight800">Art Deco</span> mulai muncul dari tahun 1925 di sebuah konferensi <i class="red weight800">l'Exposition Internationale des Arts Decoratifs Industriels et Modernes </i> yang diadakan di <span class="weight800">Paris, Perancis.</span></p>
+						                </div>
+						            </div>
+						            <div class="panel-heading">
+						     	           <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapselatar"><span class="glyphicon glyphicon-plus"></span> Kemunculan Art Deco</a>
+						                </h4>
+						            </div>
+						            <div id="collapselatar" class="panel-collapse collapse ">
+						                <div class="panel-body">
+						                    <p>Pada akhir abad ke-19 sampai awal abad ke-20 Terjadi <i class="red weight800">Revolusi Industri </i><span class="weight800">di Inggris</span> Dimana mesin mampu menciptakan suatu hal yang sangat sulit diciptakan oleh manusia, yaitu : Garis Lurus, penemuan radio, alat transportasi Laut,dan Pesawat Terbang .Hal itulah yang melatarbelakangi munculnya <span class="red weight800">Art Deco</span></p>
+						                </div>
+						            </div>
+						        </div>
+								<button type="button" class="btn btn-default btnisi" style="margin-left: 56px;margin-top: 17px;">Sejarah Art Deco</button>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<div id="trigger2"></div>
+				<div class="numbers-box one" id="anim-elem-2">
+
+
+					<div class="title" style="width: 327px;">Perancis sebagai pusat Art Deco <br>telah memiliki sekolah seni dekoratif sejak tahun 1911</div>
+					<div class="col-right">
+						<div class="eye-button" style="margin-top: -90px;margin-left: -45px;"></div>
+						<div class="popup-text-wrapper weight" data-type="weight">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								Nama Sekolah tersebut adalah The Martine School yang didirikan tahun 1911
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<img src="assets/images/screen_03/screen03_buses.png" alt="" class="bottom-aligned bus-height" />
+				<img src="assets/images/screen_02/policeman.png" alt="" class="bottom-aligned" id="police1" />
+				<img src="assets/images/screen_02/taxi.png" alt="" class="bottom-aligned" id="car" />
+				<img src="assets/images/gifs/big_ben_02.gif" alt="" class="bottom-aligned" id="clock" />
+				<img src="assets/images/screen_03/Big-Ben.png" alt="" class="bottom-aligned" id="big-ben" />
+				<img src="assets/images/screen_03/horse_pilar.png" alt="" class="bottom-aligned" id="horse" />
+
+				<div id="trigger4"></div>
+				<div class="bottom-aligned animated-tree tree-circle" id="tree-one"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-two"></div>
+				<div class="bottom-aligned animated-tree tree-tall" id="tree-three"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-four"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-five"></div>
+				<div class="bottom-aligned animated-tree tree-tall" id="tree-six"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-seven"></div>
+				<div class="bottom-aligned animated-tree tree-circle" id="tree-eight"></div>
+				<div class="bottom-aligned animated-tree tree-tall" id="tree-nine"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-ten"></div>
+				<div class="bottom-aligned animated-tree tree-tall" id="tree-eleven"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-twelve"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-thirten"></div>
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man3" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman" />
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man4" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man5" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man6" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman2" />
+				
+				<div class="bird" id="bird1">&nbsp</div>
+				<div id="waves-wrapper" class="background">
+					<div class="wave-dark"></div>
+					<div class="wave-light"></div>
+				</div> 	
+			</section>
+				
+			<!-- Frame Four -->
+			<section id="screen-four-wrapper" data-screen="4" class="screen-wrapper scroll-animate">
+				<div id="trigger1"></div>
+				<div class="text-box normal from-up-animation-text" id="anim-elem-1">
+					<h1>Sejarah <span class="red">Art Deco</span> di Kota Bandung</h1>
+					<p style="margin-top: 35px;">
+						Pada Tahun 1915, Gubernur Jenderal J.P. de Graaf van Limburg Stirum ingin memindahkan ibu kota Hindia Belanda dari Batavia ke Bandung. Alasannya, Bandung dianggap lebih nyaman untuk ditinggali<br><br>
+				
+						Maka, Belanda-pun mendatangkan banyak arsitek andal dari negaranya untuk membangun dan menata Bandung. 
+					</p>
+					<button type="button" class="btn btn-default btnisi">Readmore</button>
+				</div>
+				
+				<div id="choppa"></div>
+				<div class="bird" id="bird4">&nbsp</div>
+				<div id="trigger2"></div>
+					<div class="numbers-box one" id="anim-elem-2">
+						<div class="col-right">
+							<div class="number" style="margin-left: 146px;margin-top: 88px;">Kenapa disebut Gedung Sate ?</div>
+							<div class="eye-button" style="margin-top: -29px;margin-left: 424px;">&nbsp;</div>
+							<div class="popup-text-wrapper height" data-type="height" style="margin-top: 13px;">
+								<div class="triangle"></div>
+								<div class="image-type"></div>
+								<div class="text">
+									Dulu namanya bukan Gedung Sate, tetapi Gedung GB (Gouvernements Bedrijven) atau gedung pusat pemerintahan Kolonial Belanda. <br><br>
+									Tapi karena berbentuk seperti sate, masyarakat Bandung menyebut gedung tersebut dengan sebutan Gedung Sate agar lebih mudah diucapkan, hingga saat ini.
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="trigger3"></div>
+					<div class="numbers-box two" id="anim-elem-3">
+						<div class="col-right">
+							<div class="number" style="margin-left: 37px;margin-top: 41px;">Pembangunan Gedung Sate</div>
+							<div class="eye-button" style="margin-left: -3px;margin-top: -34px;">&nbsp;</div>
+							<div class="popup-text-wrapper floor" data-type="floor" style="margin-left: -15px;margin-top: 17px;">
+								<div class="triangle"></div>
+								<div class="image-type"></div>
+								<div class="text">
+									- Gedung Sate rencananya akan dijadikan kantor pemerintah pusat kolonial Belanda. Kota Bandung sebagai Ibu Kotanya.<br /> <br /> - Dinding Gd. Sate yg kokoh diambil dari perbukitan batu di Bandung Timur sekitar Arcamanik & Gn. Manglayang.<br><br>- Gedung Sate diarsiteki oleh insinyur terkenal pada saat itu Ir. J. Gerber, lulusan University of Amsterdam<br>
+								</div>
+							</div>
+						</div>
+					</div>
+				<div id="trigger4"></div>
+				<div class="numbers-box three" id="anim-elem-4">
+					<div class="col-right">
+						<div class="number" style="margin-left: 10px;margin-top: -34px;">Arti Ornamen Gedung Sate</div>
+						<div class="eye-button" style="margin-left: -56px;margin-top: -52px">&nbsp;</div>
+							<div class="popup-text-wrapper value" data-type="value">
+								<div class="triangle"></div>
+								<div class="image-type"></div>
+								<div class="text">
+									<br>Di atas Gedung Sate ada ornamen berbentuk jambu air dengan jumlah 6 jambu air, mengartikan sebuah kesuburan yang dimiliki tanah parahyangan <br><br> dan jumlah 6 mengartikan biaya yang dibutuhkan untuk membangun Gedung Sate sejumlah 6 juta golden.
+								</div>
+							</div>
+					</div>
+				</div>
+				<div id="trigger5"></div>
+				<div class="numbers-box three" id="anim-elem-4">
+					<div class="col-right">
+						<div class="lorong" style="margin-top: 132px;margin-left: 160px;">Tahan Gempa</div>
+						<div class="eye-button" style="margin-top: -32px;margin-left: 117px;">&nbsp;</div>
+						<div class="popup-text-wrapper  open-up" data-type="x">
+							<div class="triangle"></div>
+							<div class="text">
+								Gedung Sate menggunakan banyak persendian, sehingga gedung ini tahan gempa hingga 9 SR.
+							</div>
+						</div>
+					</div>
+				</div>
+				<img src="assets/images/screen_04/buckingham_palace.png" alt="" class="bottom-aligned" id="palace" />
+				<img src="assets/images/screen_04/bridge.png" alt="" class="bottom-aligned" id="bridge" />
+				<!-- <img src="assets/images/screen_04/Guard.png" alt="" class="bottom-aligned guard-fixed" id="guard-fixed1" />
+				<img src="assets/images/screen_04/Guard.png" alt="" class="bottom-aligned guard-fixed" id="guard-fixed2" /> -->
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man2" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man3" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman" />
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man4" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man5" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man6" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman2" />
+				<div id="bottom-background" class="red-carpet"></div> 
+			</section>
+
+			<!-- Frame Five -->
+			<section id="screen-five-wrapper" data-screen="5" class="screen-wrapper scroll-animate">
+				<div id="trigger1"></div>
+				<div class="text-box normal from-up-animation-text" id="anim-elem-1">
+					<h1>Gedung <span class="red">Sate </h1>
+					<h3>(Gouvernements Bedrijven) </h3>
+					<p style="margin-top: 20px">
+						It is currently owned by Merlin Entertainment, employs 207 people, 
+						and averages a whopping 3.75 million visitors per year! You can cram 
+						25 people in to each capsule, so between all 32 of them, that’s 800 
+						people going round at once!
+					</p>
+					<button type="button" class="btn btn-default btnisi">Readmore</button>
+				</div>
+				<div class="bird" id="bird5">&nbsp</div>
+				<div id="trigger2"></div>
+				<!-- <div class="numbers-box one" id="anim-elem-2">
+					<div class="title">Height</div>
+					<div class="col-right">
+						<div class="number">135M</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper height" data-type="height">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								The London Eye is as tall as 12 London buses end to end! 
+								Luckily it moves very slowly...
+							</div>
+						</div>
+					</div>
+				</div>
+				<img src="assets/images/screen_05/screen05_buses.png" alt="" class="bottom-aligned bus-height" />
+				<div id="trigger3"></div>
+				<div class="numbers-box two" id="anim-elem-3">
+					<div class="title">Cost</div>
+					<div class="col-right">
+						<div class="number">&#163;70M</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper cost" data-type="cost">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								It would take the average Londoner 2,188 years to earn the same amount!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="trigger4"></div>
+				<div class="numbers-box three" id="anim-elem-4">
+					<div class="title">Value</div>
+					<div class="col-right">
+						<div class="number">&#163;74M</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper value open-up" data-type="value">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								The London Eye is worth about the same as 282 average London homes.
+							</div>
+						</div>
+					</div>
+				</div>
+				 -->
+				<img src="assets/images/screen_05/gedungmerdeka.png" alt="" class="wheel-support" id="wheel-support" />
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man2" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man3" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman" />
+				<img src="assets/images/screen_04/man.png" alt="" class="bottom-aligned man" id="man4" />
+				<img src="assets/images/screen_04/man_02.png" alt="" class="bottom-aligned man" id="man5" />
+				<img src="assets/images/screen_04/man_03.png" alt="" class="bottom-aligned man" id="man6" />
+				<img src="assets/images/screen_04/woman.png" alt="" class="bottom-aligned man" id="woman2" />
+
+				<div id="trigger5"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-one"></div>
+				<div class="bottom-aligned animated-tree tree-big" id="tree-two"></div>
+				<div class="bottom-aligned animated-tree tree-bigger" id="tree-three"></div>
+				<div class="bottom-aligned animated-tree tree-big" id="tree-four"></div>
+				<div class="bottom-aligned animated-tree tree-smaller" id="tree-five"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-six"></div>
+				<div class="bottom-aligned animated-tree underground" id="tree-seven"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-eight"></div>
+				<div class="bottom-aligned animated-tree tree-large" id="tree-nine"></div>
+				<div class="bottom-aligned animated-tree tree-big" id="tree-ten"></div>
+				<div class="bottom-aligned animated-tree tree-bigger" id="tree-eleven"></div>
+				<div class="bottom-aligned animated-tree tree-big" id="tree-twelve"></div>
+				<div class="bottom-aligned animated-tree tree-thin" id="tree-thirten"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-fourten"></div>
+				<div class="bottom-aligned animated-tree tree-med" id="tree-fiveten"></div>
+				<div class="lamp-floor-wrapper">&nbsp;</div>
+				<div id="bottom-background" class="red-carpet">&nbsp;</div>
+				
+			</section>
+			<!-- Frame Six -->
+			<section id="screen-six-wrapper" data-screen="6" class="screen-wrapper scroll-animate">
+				<img src="assets/images/screen_01/bus.png" alt="" class="bottom-aligned bus" id="bus-six" />
+				<img src="assets/images/screen_05/bridge.png" alt="" class="bottom-aligned" id="bridge" />
+				<div id="trigger1"></div>
+				<div class="text-box normal from-up-animation-text" id="anim-elem-1">
+					<h1>Gedung <span class="red">Merdeka </h1>
+					<h3>(Sociëteit Concordia) </h3>
+					<div class="bs-example" style="margin-top:19px;">
+						    <div class="panel-group" id="accordion">
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						     	           <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsemerdeka1"><span class="glyphicon glyphicon-plus"></span>Gedung Merdeka</a>
+						                </h4>
+						            </div>
+						            <div id="collapsemerdeka1" class="panel-collapse collapse in">
+						                <div class="panel-body">
+						                    <p>Gedung Merdeka di jalan Asia-Afrika, Bandung, adalah gedung bersejarah yang pernah digunakan sebagai tempat Konferensi Tingkat Tinggi Asia-Afrika tahun 1955</p>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						                <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsemerdeka2"><span class="glyphicon glyphicon-plus"></span>Sejarah #1 :</a>
+						                </h4>
+						            </div>
+						            <div id="collapsemerdeka2" class="panel-collapse collapse ">
+						                <div class="panel-body">
+						                    <p>Bangunan ini dirancang pada tahun 1926 oleh Van Galen Last dan C.P. Wolff Schoemaker. Bangunan ini pertama kali dibangun pada tahun 1895 dan dinamakan Sociëteit Concordia, dan pada tahun 1926 bangunan ini direnovasi seluruhnya oleh Wolff Schoemacher, Aalbers dan Van Gallen.</p>
+						                </div>
+						            </div>
+						        </div>
+						        <div class="panel panel-default">
+						            <div class="panel-heading">
+						                <h4 class="panel-title">
+						                    <a data-toggle="collapse" data-parent="#accordion" href="#collapsemerdeka3"><span class="glyphicon glyphicon-plus"></span>Sejarah #2</a>
+						                </h4>
+						            </div>
+						            <div id="collapsemerdeka3" class="panel-collapse collapse">
+						                <div class="panel-body">
+						                    <p>Gedung ini dipergunakan sebagai tempat rekreasi dan sosialisasi oleh sekelompok masyarakat Belanda. Pada hari libur, terutama malam hari, gedung ini dipenuhi oleh mereka untuk berdansa, menonton pertunjukan kesenian, atau makan malam.</p>
+						                </div>
+						            </div>
+						        </div>
+						        <button type="button" class="btn btn-default btnisi">Readmore</button>
+						    </div>
+						</div>
+				</div>
+
+				<div class="bird" id="bird6">&nbsp</div>
+				<div id="trigger2"></div>
+				<!-- <div class="numbers-box one" id="anim-elem-2">
+					<div class="title">Height</div>
+					<div class="col-right">
+						<div class="number">306M</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper height" data-type="height">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								The same distance as 27.3 buses end to end. 
+								Or rush hour as Londoners like to call it.
+							</div>
+						</div>
+					</div>
+				</div> -->
+				<img src="assets/images/screen_06/screen06_buses.png" alt="" class="bottom-aligned bus-height" />
+				<!-- <div id="trigger3"></div>
+				<div class="numbers-box two" id="anim-elem-3">
+					<div class="title">Cost</div>
+					<div class="col-right">
+						<div class="number">&#163;1.2BN</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper cost" data-type="cost">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								It would take the average Londoner 37,500 years to earn the same amount! Hopefully some sort of loyal employee bonus would be in order. <br /> <br /> Outside the capital you’d need to work 40,956 years!
+							</div>
+						</div>
+					</div>
+				</div>	 -->
+				<div id="trigger4"></div>
+				<!-- <div class="numbers-box three" id="anim-elem-4">
+					<div class="title">Value</div>
+					<div class="col-right">
+						<div class="number">&#163;2.5BN</div>
+						<div class="eye-button">&nbsp;</div>
+						<div class="popup-text-wrapper value open-up" data-type="value">
+							<div class="triangle"></div>
+							<div class="image-type"></div>
+							<div class="text">
+								The Shard is worth the same as 9,542 average London homes. <br /> <br /> Our friends around the country would need 10,000 average UK homes.
+							</div>
+						</div>
+					</div>
+				</div>	 -->
+				
+				<div class="bottom-aligned animated-tree light-elem" id="light-one"></div>
+				<div class="bottom-aligned animated-tree light-elem" id="light-two"></div>
+				<div class="bottom-aligned animated-tree light-elem" id="light-three"></div>
+				<img src="assets/images/screen_03/taxi_02.png" alt="" class="bottom-aligned taxi" id="taxi1" />
+				<img src="assets/images/screen_03/taxi_02.png" alt="" class="bottom-aligned taxi" id="taxi2" />
+				<img src="assets/images/screen_03/taxi_02.png" alt="" class="bottom-aligned taxi" id="taxi3" />
+				<div id="bottom-background" class="sand"></div>
+			</section>
+
+			
+			<!-- Train line -->
+			<div class="clearfix">&nbsp;</div>
+			<!-- Site footer -->
+			<footer>
+				<div class="footer-text">
+					<p class="footer-p">Created By Billy Maulana 2017</p>
+				</div>
+				<div class="social-buttons-wrapper">
+					<a href="#" target="_blank"><img src="assets/images/dispudbar.png" alt="Facebook" /></a>
+					<a href="#" target="_blank"><img src="assets/images/stunning.png" alt="Twitter" /></a>
+					<a href="#" target="_blank"><img src="assets/images/talentbandung.png" /></a>
+				</div>
+			</footer>
+		</section>
+		<!-- Modals -->
+		<script src="assets/js/libraries/TweenMax.min.js"></script>
+		<script src="assets/js/libraries/jquery-1.11.1.min.js"></script>
+		<script src="assets/js/libraries/bootstrap-min.js"></script>
+		<script src="assets/js/libraries/jquery.mousewheel.min.js"></script>
+		<script src="assets/js/libraries/modernizr.custom.75540.js"></script>
+		<script src="assets/js/libraries/jquery.animate.js"></script>
+		<script src="assets/js/libraries/jquery-animate-css-rotate-scale.js"></script>
+		<!--<script src="assets/js/libraries/jquery.scrollorama.js"></script>-->
+		<script src="assets/js/libraries/jquery.scrollmagic.min.js"></script>
+		<script src="assets/js/stage.manager.js"></script>
+	</body>
 </html>
