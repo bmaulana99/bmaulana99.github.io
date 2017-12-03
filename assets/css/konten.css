@@ -1,0 +1,21 @@
+.article-detail h2, .article-detail h3, .article-detail h4, .article-detail h5, .article-detail h6 {
+    font-size: 34px;
+    font-family: 'ardeco';
+}
+.article-restaurant-intro .landing-section-title {
+    text-transform: capitalize;
+    font-family: 'ardeco';
+    font-weight: bold;
+    font-size: 57px;
+}
+.article-detail p {
+    font-size: 16px;
+    font-family:roboto;
+    line-height: 1.5;
+    margin: 0 0 1.5em;
+    width:958px;
+}
+.merah{
+	color:#d42711;
+	font-weight: bolder;
+}
